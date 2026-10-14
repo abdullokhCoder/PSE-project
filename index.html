@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b18">
+  <title>DEV / INSIGHT — Software Developer Spotlight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="DEV Insight home"><span class="brand-mark">&lt;/&gt;</span><span>DEV <i>/</i> INSIGHT</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home" class="nav-link active" data-page="home">Home</a>
+      <a href="#about" class="nav-link" data-page="about">About</a>
+      <a href="#videos" class="nav-link" data-page="videos">Videos</a>
+      <a href="#videos" class="nav-cta">Watch interview <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page home-page">
+      <div class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse"></span> PSA MODULE <b>·</b> CAREER SPOTLIGHT</div>
+          <h1>Inside the world of a <span class="gradient-text">Software Developer.</span></h1>
+          <p class="hero-lead">A closer look at the role, the skills, and the real experience behind building software.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#videos">Watch the interview <span>↗</span></a><a class="button button-ghost" href="#about">Meet the team</a></div>
+          <div class="hero-note"><span class="note-line"></span> PEOPLE. CODE. REAL-WORLD EXPERIENCE.</div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="code-window">
+            <div class="window-top"><span></span><span></span><span></span><small>developer.ts</small></div>
+            <div class="code-lines"><p><i>01</i> <b>const</b> future = <em>"build"</em>;</p><p><i>02</i> <b>function</b> <strong>solve</strong>(problem) {</p><p><i>03</i> &nbsp;&nbsp;return <em>ideas</em> + <em>code</em>;</p><p><i>04</i> }</p><p><i>05</i> <span class="cursor">▍</span></p></div>
+          </div>
+          <div class="float-chip chip-code">&lt;/&gt;</div><div class="float-chip chip-star">✳</div><div class="float-chip chip-bracket">{ }</div>
+          <div class="art-caption"><span class="caption-dot"></span> Turn ideas into solutions</div>
+        </div>
+      </div>
+
+      <section id="about" class="section wrap">
+        <div class="section-heading"><div><div class="eyebrow">01 / OUR TEAM</div><h2>Three students. <span class="muted-gradient">One shared curiosity.</span></h2></div><p>We explore the profession of software development and share what we learn.</p></div>
+        <div class="team-grid">
+          <article class="team-card"><div class="avatar"><img src="assets/00027012-nematov-mirjalol.jpg" alt="Nematov Mirjalol"></div><div class="member-name">Nematov Mirjalol</div><div class="member-id">00027012</div><div class="member-line"></div><span class="member-index">01</span></article>
+          <article class="team-card"><div class="avatar"><img src="assets/00027026-ibragimov-abdullokh.jpg" alt="Ibragimov Abdullokh"></div><div class="member-name">Ibragimov Abdullokh</div><div class="member-id">00027026</div><div class="member-line"></div><span class="member-index">02</span></article>
+          <article class="team-card"><div class="avatar"><img src="assets/00027038-djuramuratov-sarvar.jpg" alt="Djuramuratov Sarvar"></div><div class="member-name">Djuramuratov Sarvar</div><div class="member-id">00027038</div><div class="member-line"></div><span class="member-index">03</span></article>
+        </div>
+        <aside class="role-card">
+          <div class="role-icon">&lt;/&gt;</div><div class="role-content"><div class="eyebrow">02 / THE PROFESSION</div><h3>What does a software developer do?</h3><p>Software developers analyze user needs, design and develop applications, test solutions, and maintain software. They turn requirements into working products and collaborate with others to solve problems.</p><div class="skill-tags"><span>01&nbsp; Analyze needs</span><span>02&nbsp; Build software</span><span>03&nbsp; Test & improve</span><span>04&nbsp; Collaborate</span></div></div>
+        </aside>
+      </section>
+
+      <section class="interview-banner wrap">
+        <div class="banner-orb"></div><div class="banner-content"><div class="eyebrow">REAL EXPERIENCE · REAL ADVICE</div><h2>Go beyond the job description.</h2><p>Hear directly from a software developer about the profession and the path into the industry.</p><a href="#videos" class="button button-primary">Explore the interview <span>↗</span></a></div><div class="banner-stamp">BUILD<br>LEARN<br><b>GROW.</b></div>
+      </section>
+    </section>
+
+    <section id="videos" class="page videos-page" hidden>
+      <div class="video-intro wrap">
+        <div class="eyebrow"><span class="pulse"></span> THE INTERVIEW</div>
+        <div class="video-title-row"><div><h1>A conversation with a <span class="gradient-text">Software Developer.</span></h1><p>Full interview and selected clips from the conversation.</p></div><div class="handwritten">Watch.<br>Learn.<br><span>Get inspired.</span> ↙</div></div>
+        <div class="topic-row">
+          <a class="topic active" href="#full-interview">Full interview</a>
+          <a class="topic" href="#clip-technical">Technical skills</a>
+          <a class="topic" href="#clip-degree">University degree</a>
+          <a class="topic" href="#clip-deadlines">Deadlines, stress, disagreements</a>
+          <a class="topic" href="#clip-time">Wыhat take the most of your time</a>
+        </div>
+      </div>
+      <section class="video-layout wrap" id="full-interview">
+        <div class="player-shell"><video class="main-video" controls playsinline preload="metadata"><source src="assets/full-interview.mp4" type="video/mp4">Your browser does not support video playback.</video><div class="player-footer"><span class="live-dot"></span> FULL INTERVIEW <span class="player-foot-right">Use the player controls to watch</span></div></div>
+        <aside class="video-details"><div class="eyebrow">FEATURED VIDEO</div><h2>The complete conversation</h2><p>Watch the full interview, then explore the shorter clips below by topic.</p><div class="detail-meta"><span>▶</span> Full interview video</div><a class="button button-primary full-button" href="#full-interview">Watch here <span>↗</span></a></aside>
+      </section>
+      <section class="chapters wrap"><div class="section-heading"><div><div class="eyebrow">03 / VIDEO COLLECTION</div><h2>Watch by topic.</h2></div><p>Choose a clip to watch that part of the interview.</p></div>
+        <div class="chapter-grid">
+          <article class="chapter-card video-card" id="clip-technical"><div class="clip-preview"><video controls preload="metadata" playsinline><source src="assets/video-technical-skills.mp4" type="video/mp4">Video playback is not supported.</video><span class="clip-label">CLIP 01</span></div><div class="clip-copy"><h3>Technical skills</h3><p>A focused segment about technical skills.</p><span class="chapter-status">INTERVIEW CLIP</span></div></article>
+          <article class="chapter-card video-card" id="clip-degree"><div class="clip-preview"><video controls preload="metadata" playsinline><source src="assets/video-university-degree.mp4" type="video/mp4">Video playback is not supported.</video><span class="clip-label">CLIP 02</span></div><div class="clip-copy"><h3>University degree</h3><p>A focused segment about university education.</p><span class="chapter-status">INTERVIEW CLIP</span></div></article>
+          <article class="chapter-card video-card" id="clip-deadlines"><div class="clip-preview"><video controls preload="metadata" playsinline><source src="assets/video-deadlines-stress-disagreements.mp4" type="video/mp4">Video playback is not supported.</video><span class="clip-label">CLIP 03</span></div><div class="clip-copy"><h3>Deadlines, stress, disagreements</h3><p>A segment about pressure, deadlines, and disagreements.</p><span class="chapter-status">INTERVIEW CLIP</span></div></article>
+          <article class="chapter-card video-card" id="clip-time"><div class="clip-preview"><video controls preload="metadata" playsinline><source src="assets/video-what-take-the-most-of-your-time.mp4" type="video/mp4">Video playback is not supported.</video><span class="clip-label">CLIP 04</span></div><div class="clip-copy"><h3>What take the most of your time</h3><p>A segment about where a developer’s time goes.</p><span class="chapter-status">INTERVIEW CLIP</span></div></article>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>DEV <i>/</i> INSIGHT</span></a><span>PSA MODULE · SOFTWARE DEVELOPER</span><span class="footer-tag">Build. Learn. Grow.</span></footer>
+</body>
+</html>
